@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_itemboxs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/woodbackground"
+    tools:context="com.example.khseob0715.puzzlegame.preboxActivity"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_weight="0.92"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:text="배경음"
+                android:layout_height="30dp"
+                android:id="@+id/textView"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_width="65dp" />
+
+            <SeekBar
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar"
+                android:layout_width="150dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/soundimg1"
+                android:id="@+id/backsound"
+                android:onClick="backsound"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:text="효과음"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:id="@+id/textView21"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_width="65dp" />
+
+            <SeekBar
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar2"
+                android:layout_width="150dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/soundimg2"
+                android:id="@+id/soundpool"
+                android:onClick="soundpool"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:text="음향기본값"
+                android:layout_width="100dp"
+                android:id="@+id/button5"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:background="@drawable/wood"
+                android:layout_height="50dp"
+                android:textStyle="normal|bold"
+                android:onClick="basicsound" />
+
+            <Button
+                android:text="프로필수정"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/button7"
+                android:layout_weight="1"
+                android:onClick="profile"
+                android:textColor="#ffffff"
+                android:background="@drawable/wood"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="개발자전화"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/button6"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:background="@drawable/wood"
+                android:textStyle="normal|bold"
+                android:onClick="tell" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:text="학교홈페이지"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/button10"
+                android:layout_weight="1"
+                android:onClick="link"
+                android:textColor="#ffffff"
+                android:background="@drawable/wood"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="개인기록"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/button11"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:background="@drawable/wood"
+                android:textStyle="normal|bold"
+                android:onClick="rank" />
+
+            <Button
+                android:text="도움말"
+                android:layout_width="86dp"
+                android:id="@+id/button12"
+                android:onClick="advicebtn"
+                android:textColor="#ffffff"
+                android:background="@drawable/wood"
+                android:layout_height="50dp"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:text="조선대학교 컴퓨터공학과 13학번 김한섭"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>

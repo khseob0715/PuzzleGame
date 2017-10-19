@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/sample"
+    tools:context="com.example.khseob0715.puzzlegame.GameActivity"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:layout_height="63dp">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/scoretext"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:textAlignment="viewEnd" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="8"
+        android:columnCount="6"
+        android:background="@null"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon2"
+            android:id="@+id/img1"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:onClick = "icon1"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img2"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:onClick = "icon2"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img3"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:onClick = "icon3"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img4"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:onClick = "icon4"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img5"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:onClick = "icon5"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img6"
+            android:layout_row="0"
+            android:layout_column="5"
+            android:onClick = "icon6"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img7"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:onClick = "icon7"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img8"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:onClick = "icon8"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img9"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:onClick = "icon9"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img10"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:onClick = "icon10"
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img11"
+            android:onClick = "icon11"
+            android:layout_row="1"
+            android:layout_column="4"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img12"
+            android:onClick = "icon12"
+            android:layout_row="1"
+            android:layout_column="5" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img13"
+            android:onClick = "icon13"
+            android:layout_row="2"
+            android:layout_column="0"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img14"
+            android:onClick = "icon14"
+            android:layout_row="2"
+            android:layout_column="1"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img15"
+            android:onClick = "icon15"
+            android:layout_row="2"
+            android:layout_column="2"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img16"
+            android:onClick = "icon16"
+            android:layout_row="2"
+            android:layout_column="3" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img17"
+            android:onClick = "icon17"
+            android:layout_row="2"
+            android:layout_column="4"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img18"
+            android:onClick = "icon18"
+            android:layout_row="2"
+            android:layout_column="5"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img19"
+            android:onClick = "icon19"
+            android:layout_row="3"
+            android:layout_column="0" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img20"
+            android:onClick = "icon20"
+            android:layout_row="3"
+            android:layout_column="1"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img21"
+            android:onClick = "icon21"
+            android:layout_row="3"
+            android:layout_column="2"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img22"
+            android:onClick = "icon22"
+            android:layout_row="3"
+            android:layout_column="3"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img23"
+            android:onClick = "icon23"
+            android:layout_row="3"
+            android:layout_column="4" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img24"
+            android:onClick = "icon24"
+            android:layout_row="3"
+            android:layout_column="5"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img25"
+            android:onClick = "icon25"
+            android:layout_row="4"
+            android:layout_column="0"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img26"
+            android:onClick = "icon26"
+            android:layout_row="4"
+            android:layout_column="1" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img27"
+            android:onClick = "icon27"
+            android:layout_row="4"
+            android:layout_column="2"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img28"
+            android:onClick = "icon28"
+            android:layout_row="4"
+            android:layout_column="3"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img29"
+            android:onClick = "icon29"
+            android:layout_row="4"
+            android:layout_column="4"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img30"
+            android:onClick = "icon30"
+            android:layout_row="4"
+            android:layout_column="5" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img31"
+            android:onClick = "icon31"
+            android:layout_row="5"
+            android:layout_column="0"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img32"
+            android:onClick = "icon32"
+            android:layout_row="5"
+            android:layout_column="1"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img33"
+            android:onClick = "icon33"
+            android:layout_row="5"
+            android:layout_column="2" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img34"
+            android:onClick = "icon34"
+            android:layout_row="5"
+            android:layout_column="3"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img35"
+            android:onClick = "icon35"
+            android:layout_row="5"
+            android:layout_column="4"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img36"
+            android:onClick = "icon36"
+            android:layout_row="5"
+            android:layout_column="5"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img37"
+            android:onClick = "icon37"
+            android:layout_row="6"
+            android:layout_column="0" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img38"
+            android:onClick = "icon38"
+            android:layout_row="6"
+            android:layout_column="1"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img39"
+            android:onClick = "icon39"
+            android:layout_row="6"
+            android:layout_column="2"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img40"
+            android:onClick = "icon40"
+            android:layout_row="6"
+            android:layout_column="3" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img41"
+            android:onClick = "icon41"
+            android:layout_row="6"
+            android:layout_column="4"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img42"
+            android:onClick = "icon42"
+            android:layout_row="6"
+            android:layout_column="5"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img43"
+            android:onClick = "icon43"
+            android:layout_row="7"
+            android:layout_column="0"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img44"
+            android:onClick = "icon44"
+            android:layout_row="7"
+            android:layout_column="1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img45"
+            android:onClick = "icon45"
+            android:layout_row="7"
+            android:layout_column="2"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon4"
+            android:id="@+id/img46"
+            android:onClick = "icon46"
+            android:layout_row="7"
+            android:layout_column="3"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon1"
+            android:id="@+id/img47"
+            android:onClick = "icon47"
+            android:layout_row="7"
+            android:layout_column="4" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/icon3"
+            android:id="@+id/img48"
+            android:onClick = "icon48"
+            android:layout_row="7"
+            android:layout_column="5"/>
+
+
+
+    </GridLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:max="100"
+        android:progress="100"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/timertext"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="80dp"
+            app:srcCompat="@drawable/itemicon1"
+            android:id="@+id/itemimg1"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:onClick="reset"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/itemicon2"
+            android:id="@+id/itemimg2"
+            android:layout_weight="1"
+            android:onClick="plustime"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/itemicon3"
+            android:id="@+id/itemimg3"
+            android:layout_weight="1"
+            android:onClick="cross"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/itemicon4"
+            android:id="@+id/itemimg4"
+            android:layout_weight="1"
+            android:onClick="randomfive"/>
+    </LinearLayout>
+
+
+</LinearLayout>

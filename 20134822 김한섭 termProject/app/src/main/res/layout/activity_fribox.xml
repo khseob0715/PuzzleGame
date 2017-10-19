@@ -1,0 +1,1837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_itemboxs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/woodbackground"
+    tools:context="com.example.khseob0715.puzzlegame.friboxActivity"
+    android:weightSum="1">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.84"
+        android:layout_height="150dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg1"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname1"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart1"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg2"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname2"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart2"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg3"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname3"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart3"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg4"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname4"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart4"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg5"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname5"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart5"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg6"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname6"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart6"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg7"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname7"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart7"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg8"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname8"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart8"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg9"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname9"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart9"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg10"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname10"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart10"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg11"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname11"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart11"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg12"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname12"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart12"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg13"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname13"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart13"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg14"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname14"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart14"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg15"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname15"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart15"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg16"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname16"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart16"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg17"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname17"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart17"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg18"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname18"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart18"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg19"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname19"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart19"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg20"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname20"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart20"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg21"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname21"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart21"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg22"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname22"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart22"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg23"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname23"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart23"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg24"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname24"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart24"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg25"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname25"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart25"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg26"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname26"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart26"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg27"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname27"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart27"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg28"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname28"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart28"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg29"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname29"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart29"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg30"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname30"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart30"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg31"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname31"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart31"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg32"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname32"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart32"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg33"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname33"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart33"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg34"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname34"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart34"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg35"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname35"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart35"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg36"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname36"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart36"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg37"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname37"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart37"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg38"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname38"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart38"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg39"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname39"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart39"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg40"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname40"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart40"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg41"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname41"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart41"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg42"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname42"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart42"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg43"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname43"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart43"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg44"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname44"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart44"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg45"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname45"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart45"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg46"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname46"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart46"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg47"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname47"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart47"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg48"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname48"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart48"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp" android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg49"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname49"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart49"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp"
+                        android:onClick="message"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wood">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/profil"
+                        android:id="@+id/friendimg50"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        />
+
+                    <TextView
+                        android:text="친구 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/friendname50"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/fullheart"
+                        android:id="@+id/friendheart50"
+                        android:layout_gravity="center"
+                        android:paddingRight="10dp"
+                        android:onClick="message"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

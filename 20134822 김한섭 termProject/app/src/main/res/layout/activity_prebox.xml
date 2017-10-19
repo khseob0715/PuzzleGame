@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_itemboxs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/woodbackground"
+    tools:context="com.example.khseob0715.puzzlegame.preboxActivity"
+    android:weightSum="1">
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/pretest">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <TextView
+                    android:text="개발자"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:layout_gravity="bottom"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/appicon"
+                        android:id="@+id/imageView"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:text="무료 아이템(타이머)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:id="@+id/textView1"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/itemicon2"
+                        android:id="@+id/imageView1"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:onClick="toss"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/pretest">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <TextView
+                    android:text="개발자"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView7"
+                    android:layout_gravity="bottom"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/appicon"
+                        android:id="@+id/imageView2"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:text="무료 아이템(리셋)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:id="@+id/textView8"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/itemicon1"
+                        android:id="@+id/imageView4"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:onClick="toss"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/pretest">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <TextView
+                    android:text="개발자"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewb"
+                    android:layout_gravity="bottom"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/appicon"
+                        android:id="@+id/imageViewb"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:text="무료 아이템(망치)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:id="@+id/textViewa"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/itemicon3"
+                        android:id="@+id/imageViewa"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:onClick="toss"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/pretest">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <TextView
+                    android:text="개발자"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewd"
+                    android:layout_gravity="bottom"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold"
+                    android:textSize="14sp"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/appicon"
+                        android:id="@+id/imageViewd"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:text="무료 아이템(랜덤)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:id="@+id/textViewc"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        />
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        app:srcCompat="@drawable/itemicon4"
+                        android:id="@+id/imageViewc"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:onClick="toss"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

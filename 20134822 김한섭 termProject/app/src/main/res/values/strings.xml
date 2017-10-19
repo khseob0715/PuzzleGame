@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PuzzleGame</string>
+    <string name="misson">Mission Score</string>
+    <string name="clear">Clear!!</string>
+    <string name="fail">Fail</string>
+    <string name="rename">별명 입력</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="time_array">
+        <item>30초</item>
+        <item>40초</item>
+        <item>50초</item>
+        <item>60초</item>
+    </string-array>
+
+    <string-array name="score_array">
+        <item>6000점</item>
+        <item>12000점</item>
+        <item>24000점</item>
+        <item>40000점</item>
+    </string-array>
+
+    <string-array name="stone_array">
+        <item>0개</item>
+        <item>3개</item>
+        <item>7개</item>
+        <item>9개</item>
+    </string-array>
+</resources>

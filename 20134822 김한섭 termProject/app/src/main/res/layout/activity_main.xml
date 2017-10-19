@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/sample2"
+    tools:context="com.example.khseob0715.puzzlegame.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/profil"
+            android:id="@+id/mainprofil"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="별명없음"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nametext"
+            android:layout_weight="1"
+            android:background="@drawable/shape_list"
+            android:layout_gravity="center"
+            android:textStyle="normal|bold"
+            android:textColor="#000000"
+            android:textAlignment="center" />
+
+        <ImageView
+            app:srcCompat="@drawable/new_heart1"
+            android:layout_gravity="center"
+            android:id="@+id/heartUI"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="right"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            app:srcCompat="@drawable/selecticon1"
+            android:id="@+id/imageView10"
+            android:onClick="itemBox"
+            android:layout_gravity="right"
+            android:layout_height="80dp"
+            android:layout_weight="0.04"
+            android:layout_width="80dp" />
+
+        <ImageView
+            app:srcCompat="@drawable/selecticon2"
+            android:id="@+id/imageView9"
+            android:layout_weight="0.52"
+            android:onClick="friBox"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <ImageView
+            app:srcCompat="@drawable/selecticon3"
+            android:id="@+id/imageView8"
+            android:layout_weight="0.52"
+            android:onClick="preBox"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <ImageView
+            app:srcCompat="@drawable/selecticon4"
+            android:id="@+id/imageView7"
+            android:layout_weight="0.52"
+            android:onClick="setting"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/round1"
+                android:id="@+id/imageView18"
+                android:layout_gravity="right"
+                android:onClick="game1"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/round2"
+                android:id="@+id/imageView17"
+                android:layout_gravity="center"
+                android:onClick="game2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/round3"
+                android:id="@+id/imageView16"
+                android:onClick="game3"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/round4"
+                android:id="@+id/imageView15"
+                android:layout_gravity="center"
+                android:onClick="game4"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/round5"
+                android:id="@+id/imageView14"
+                android:layout_gravity="right"
+                android:onClick="game5"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/roundselect"
+                android:id="@+id/imageView6"
+                android:onClick="gameselect"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
